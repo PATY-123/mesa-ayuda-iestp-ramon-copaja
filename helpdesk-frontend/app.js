@@ -4,7 +4,7 @@ const esLocal =
   window.location.hostname === "localhost";
 
 // En local apunta a Flask (5001); al publicarse en el mismo origen usa "" (o pon aquí la URL pública de tu API)
-const BASE_URL = esLocal ? "http://127.0.0.1:5001" : "";
+const BASE_URL = "https://mesa-ayuda-iestp-api.onrender.com";
 
 // Obtiene referencias a los elementos del formulario, tabla, mensajes y botón en index.html
 const frm = document.getElementById("frm");
